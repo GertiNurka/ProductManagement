@@ -1,0 +1,13 @@
+global using Xunit;
+global using Xunit.Abstractions;
+global using AutoMapper;
+global using FluentValidation;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Logging.Testing;
+global using Moq;
+global using ProductManagement.Application.Common.DTOs;
+global using ProductManagement.Application.Common.Interfaces.Email;
+global using ProductManagement.Application.Common.Interfaces.Persistence;
+global using ProductManagement.Application.Features.ProductFeatures.CreateProduct;
+global using ProductManagement.Application.Services.Products;
+global using ProductManagement.Domain.Entities;
