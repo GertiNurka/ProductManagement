@@ -60,8 +60,9 @@ Throughout the project 'TODO' tags are left to indicate areas of code that requi
 A few main features that can be added/expanded are:
 - Enrich 'Product' entity with more properties and rules
 - Add more entities for example 'Product Category'
+- Support endpoint versioning
 - More unit test coverage, they are never enough - Due to time limitation at the moment there are unit test for ProductsController and a couple for ProductsService
-- Write functional tests to ensure that it the solution meets the specified requirements and functions correctly from an end-user perspective
+- Write functional tests to ensure that the solution meets the specified requirements and functions correctly from an end-user perspective
 - Write integration tests to detect issues that may arise from the integration of different modules or services.
 - Remove in-memory database and support an actual storage medioum like an sql database. Configuration is in place, but commented out.
 - Integrate with other services using a message broker like azure service bus or any equivalent
